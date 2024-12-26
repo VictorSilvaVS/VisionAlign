@@ -4,6 +4,7 @@
 ## Visão Geral
 
 Este repositório contém um modelo de Inteligência Artificial treinado para a detecção de latas. O modelo foi treinado utilizando a técnica YOLO (You Only Look Once) e é capaz de identificar se as latas estão tombadas ou invertidas. Caso o número de latas detectadas em uma única operação exceda 10, o modelo envia um sinal por meio de um PLC (Controlador Lógico Programável) e registra essa ocorrência em um log detalhado, explicando os motivos da detecção.
+<br>
 <img src="https://github.com/VictorSilvaVS/VisionAlign/blob/main/testes/images/foto.teste.png" width=350>
 ## Funcionalidades
 
