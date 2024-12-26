@@ -7,9 +7,9 @@ Este repositório contém um modelo de Inteligência Artificial treinado para a 
 <img src="" width=350>
 ## Funcionalidades
 
-- **[Funcionalidade 1]**: IA FEITA PARA DETECÇÃO DE LATAS INVERTIDAS OU TOMBADAS.
-- **[Funcionalidade 2]**: CASO ELA DETECTE MAIS DE 10 OBJETOS TOMBADOS OU INVERTIDO, ELA EMITE UM SINAL BINÁRIO PARA PCL.
-- **[Funcionalidade 3]**: ELA CONSEGUE DETECTAR FRATURA DE DOMO E EVITAR GERAÇÃO DE PERDAS CONSIDERÁVEIS.
+-  IA FEITA PARA DETECÇÃO DE LATAS INVERTIDAS OU TOMBADAS.
+- CASO ELA DETECTE MAIS DE 10 OBJETOS TOMBADOS OU INVERTIDO, ELA EMITE UM SINAL BINÁRIO PARA PCL.
+- ELA CONSEGUE DETECTAR FRATURA DE DOMO E EVITAR GERAÇÃO DE PERDAS CONSIDERÁVEIS.
 
 ## Tecnologias Usadas
 
@@ -76,12 +76,12 @@ Aqui estão alguns exemplos de como rodar o modelo:
 
 - Para processar um único arquivo de imagem:
   ```bash
-  python script_principal.py --input "caminho/para/imagem.jpg"
+  python script_principal.py --input "data/imagem.jpg"
   ```
 
 - Para processar um conjunto de dados:
   ```bash
-  python script_principal.py --input "caminho/para/dataset/"
+  python script_principal.py --input "model/dataset/"
   ```
 
 ### Ajustando Hiperparâmetros
